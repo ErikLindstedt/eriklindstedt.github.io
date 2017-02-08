@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+
+}
+#Box
+{
+	width:100%;
+	height:100%;
+	position:absolute;
+}
+
+header
+{
+	height:15%;
+	width:100%;
+	background-color:#2B4C6F;
+	text-align:center;
+}
+
+h1
+{
+	color:#738CA6;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:400%;
+}
+
+
+nav
+{
+	height:10%;
+	width:100%;
+	background-color:#2B4C6F;
+}
+
+ul
+{
+	list-style:none;
+	text-align:center;
+	padding:0;
+	margin:0;
+}
+
+li
+{
+	font-size:24px;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	line-height:400%;
+	height:100%;
+	width:33%;
+	float:left;
+	color:#738CA6;
+}
+
+a:link
+{
+	text-decoration:none;
+	color:#738CA6;
+}
+a:visited
+{
+	color:#738CA6;
+}
+
+a:hover
+{
+	font-weight:bold;
+	color:#738CA6;
+}
+article
+{
+	height:85%;
+	width:100%;
+}
+
+figure
+{
+	text-align:center;
+}
