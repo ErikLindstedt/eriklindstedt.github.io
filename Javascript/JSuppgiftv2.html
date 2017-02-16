@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Uppgift2 JS</title>
+</head>
+
+<body>
+	<p id='p'>Mata in ett tal genom att trycka på knappen</p>
+    <p><b id='Tal'> </b></p>
+    <input type ='button' onClick="InputNumber()" value='Tryck här'/>
+    
+    <script type="text/javascript">
+		function InputNumber()
+		{
+			var Tal=prompt("Mata in ett tal, tack", "Tal");
+			
+			while(isNaN(Tal))
+			{
+				alert("Mata in ett giltigt tal, tack!!!");
+				Tal=prompt("Mata in ett tal, tack", "Tal");
+			}
+			document.getElementById('Tal').innerHTML = Tal;
+			document.getElementById('p').innerHTML = "Här nedan är ditt tal. Om du vill ändra talet, tryck på knappen igen";
+		}
+	</script>
+</body>
+</html>
