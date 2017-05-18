@@ -1,0 +1,531 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body
+{
+	background-image:url(Bakgrund.jpg);
+}
+
+header
+{
+	background-image:url(Banner.jpg);
+	width:1200px;
+	height:288px;
+	margin-left:360px;
+}
+h1
+{
+	margin-left:50px;
+	color:#bb87bb;
+	font-size:50px;
+	font-family:"brush Script MT";
+	padding-top:60px;
+}
+
+
+article
+{
+	background-image:url(Articlebakgrund.jpg);
+	width:1200px;
+	margin-left:360px;
+	height:1055px;
+	margin-top:-10px;
+}
+figure
+{
+	float:right;
+	margin-top:0px;
+}
+figcaption
+{
+	color:#FFF;
+	font-family:Calibri;
+}
+
+section
+{
+	float:left;
+	background-color:rgba(255,255,255,0.7);
+	margin-top:0px;
+	margin-left:50px;
+	font-size:20px;
+	color:#333;
+	font-family:Calibri;
+	padding:5px;
+}
+
+.artistbox1
+{
+	margin-top:20px;
+	float:left;
+	background-color:rgba(255,255,255,0.7);
+	margin-left:50px;
+	font-size:120%;
+	color:#333;
+	font-family:Calibri;
+	padding:5px;
+	width:500px;
+	clear:left;
+}
+
+.DwtD
+{
+	float:left;
+	margin-top:0px;
+	background-image:url(DwtD125px.jpg);
+	width:125px;
+	height:156.25px;
+}
+.CarpenterBrut
+{
+	float:left;
+	margin-top:0px;
+	background-image:url(CarpenterBrut125px.jpg);
+	width:125px;
+	height:125px;
+}
+.PowerGlove
+{
+	float:left;
+	margin-top:0px;
+	background-image:url(PowerGlove125px;.jpg);
+	width:125px;
+	height:125px;
+}
+.Perturbator
+{
+	float:left;
+	margin-top:0px;
+	background-image:url(Perturbator125px.jpg);
+	width:125px;
+	height:125px;
+}
+.Meteor
+{
+	float:left;
+	margin-top:0px;
+	background-image:url(Meteor125px.jpg);
+	width:125px;
+	height:125px;
+}
+.GosT
+{
+	float:left;
+	margin-top:0px;
+	background-image:url(GosT125px.jpg);
+	width:125px;
+	height:125px;
+}
+.Bandcamp
+{
+	float:left;
+	margin-top:0px;
+	background-image:url(Bandcamp500px.png);
+	width:500px;
+	height:77px;
+}
+p.artist
+{
+	margin-top:-45px;
+}
+
+h1.artisth
+{
+	margin-top:-70px;
+	color:#bb87bb;
+	font-size:40px;
+	font-family:"brush Script MT";
+}
+.artistbox2
+{
+	margin-top:20px;
+	float:right;
+	background-color:rgba(255,255,255,0.7);
+	margin-left:50px;
+	font-size:120%;
+	color:#333;
+	font-family:Calibri;
+	padding:5px;
+	width:500px;
+	margin-right:50px;
+}
+
+/*Drop down meny/nav (hämtad från codepen)*/
+#primary_nav_wrap
+{
+	margin-left:360px;
+}
+
+#primary_nav_wrap ul
+{
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0;
+	background-color:#f565a3;
+	width:1200px;
+}
+
+#primary_nav_wrap ul a
+{
+	display:block;
+	color:#333;
+	text-decoration:none;
+	font-weight:700;
+	font-size:80%;
+	line-height:32px;
+	padding:0 165px;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#primary_nav_wrap ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0;
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+	background-color:#f565a3;
+}
+
+#primary_nav_wrap ul li:hover
+{
+	background-color:#f565a3;
+	text-decoration:line-through;
+}
+
+#primary_nav_wrap ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background-color:#f565a3;
+	padding:0 145px;;
+	width:100px;
+	z-index:9999;
+}
+
+#primary_nav_wrap ul ul li
+{
+	float:none;
+	width:200px;
+	z-index:9999;
+}
+
+#primary_nav_wrap ul ul a
+{
+	line-height:120%;
+	padding:10px 15px;
+}
+
+#primary_nav_wrap ul ul ul
+{
+	top:0;
+	left:100%;
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+	display:block;
+}
+
+
+
+/*Skärmanpassning*/
+
+@media screen and (max-width: 1366px)
+{
+	
+	section
+	{
+		float:left;
+		background-color:rgba(255,255,255,0.7);
+		margin-top:0px;
+		margin-left:30px;
+		font-size:15px;
+		color:#333;
+		font-family:Calibri;
+		padding:0px;
+	}
+	h1.artisth
+	{
+		font-size:32px;
+		padding-bottom:5px;
+	}
+	header
+	{
+		background-image:url(Banner1368.jpg);
+		margin-left:257px;
+		width:852px;
+		height:205px;
+	}
+	article
+	{
+	  	width:852px;
+		margin-left:257px;
+	}
+	
+	#primary_nav_wrap
+	{
+		margin-left:257px;
+	}
+	
+	#primary_nav_wrap ul
+	{
+
+		width:852px; /**/
+	}
+	
+	#primary_nav_wrap ul a
+	{
+
+		padding:0 110px; /**/
+	}
+	
+
+	#primary_nav_wrap ul ul
+	{
+
+		padding:0 90px;; /**/
+	}
+	
+	#primary_nav_wrap ul ul li
+	{
+		width:180px; /**/
+	}
+	.artistbox1
+	{
+		margin-top:20px;
+		float:left;
+		background-color:rgba(255,255,255,0.7);
+		margin-left:30px;
+		font-size:90%;
+		color:#333;
+		font-family:Calibri;
+		padding:5px;
+		width:356px;
+		clear:left;
+	}
+	.artistbox2
+	{
+		margin-top:20px;
+		float:right;
+		background-color:rgba(255,255,255,0.7);
+		margin-right:30px;
+		font-size:90%;
+		color:#333;
+		font-family:Calibri;
+		padding:5px;
+		width:356px;
+	}
+	.DwtD
+	{
+		background-image:url(DwtD89px.jpg);
+		width:89px;
+		height:111px;
+	}
+	.CarpenterBrut
+	{
+		background-image:url(CarpenterBrut89px.jpg);
+		width:89px;
+		height:89px;
+	}
+	.PowerGlove
+	{
+		background-image:url(PowerGlove89px;.jpg);
+		width:89px;
+		height:89px;
+	}
+	.Perturbator
+	{
+		background-image:url(Perturbator89px.jpg);
+		width:89px;
+		height:89px;
+	}
+	.Meteor
+	{
+		background-image:url(Meteor89px.jpg);
+		width:89px;
+		height:89px;
+	}
+	.GosT
+	{
+		background-image:url(GosT89px.jpg);
+		width:89px;
+		height:89px;
+	}
+	.Bandcamp
+	{
+		background-image:url(Bandcamp356px.png);
+		width:356px;
+		height:55px;
+	}
+	
+	img
+	{
+		max-width:220px;
+		max-height:220px;
+	}
+	figcaption
+	{
+		font-size:10px;
+	}
+}
+@media screen and (max-width: 700px)
+{
+		
+	section
+	{
+		float:left;
+		background-color:rgba(255,255,255,0.7);
+		margin-top:0px;
+		margin-left:30px;
+		font-size:10px;
+		color:#333;
+		font-family:Calibri;
+		padding:0px;
+	}
+	h1.artisth
+	{
+		font-size:32px;
+		padding-bottom:5px;
+	}
+	header
+	{
+		background-image:url(Banner500px.jpg);
+		margin-left:0px;
+		width:500px;
+		height:120px;
+	}
+	article
+	{
+	  	width:500px;
+		margin-left:0px;
+	}
+	
+	#primary_nav_wrap
+	{
+		margin-left:0px;
+	}
+	
+	#primary_nav_wrap ul
+	{
+
+		width:500px; /**/
+	}
+	
+	#primary_nav_wrap ul a
+	{
+
+		padding:0 50px; /**/
+	}
+	
+
+	#primary_nav_wrap ul ul
+	{
+
+		padding:0 20px;; /**/
+	}
+	
+	#primary_nav_wrap ul ul li
+	{
+		width:100px; /**/
+	}
+	h1.artisth
+	{
+		font-size:170%;
+	}
+	.artistbox1
+	{
+		margin-top:5px;
+		float:left;
+		background-color:rgba(255,255,255,0.7);
+		margin-left:125px;
+		font-size:70%;
+		color:#333;
+		font-family:Calibri;
+		padding:5px;
+		width:250px;
+		clear:left;
+	}
+	p.artist
+	{
+		margin-top:-30px;
+		padding:0;
+	}
+	.artistbox2
+	{
+		margin-top:5px;
+		float:left;
+		background-color:rgba(255,255,255,0.7);
+		margin-left:125px;
+		font-size:70%;
+		color:#333;
+		font-family:Calibri;
+		padding:5px;
+		width:250px;
+	}
+	.DwtD
+	{
+		background-image:url(DwtD62px.jpg);
+		width:62px;
+		height:77px;
+	}
+	.CarpenterBrut
+	{
+		background-image:url(CarpenterBrut62px.jpg);
+		width:62px;
+		height:62px;
+	}
+	.PowerGlove
+	{
+		background-image:url(PowerGlove62px;.jpg);
+		width:62px;
+		height:62px;
+	}
+	.Perturbator
+	{
+		background-image:url(Perturbator62px.jpg);
+		width:62px;
+		height:62px;
+	}
+	.Meteor
+	{
+		background-image:url(Meteor62px.jpg);
+		width:62px;
+		height:62px;
+	}
+	.GosT
+	{
+		background-image:url(GosT62px.jpg);
+		width:62px;
+		height:62px;
+	}
+	.Bandcamp
+	{
+		background-image:url(Bandcamp250px.png);
+		width:250px;
+		height:39px;
+	}
+	
+	img
+	{
+		max-width:220px;
+		max-height:220px;
+	}
+	figcaption
+	{
+		font-size:10px;
+	}
+	figure
+	{
+		float:inherit;
+		margin-top:300px;
+	}
+}
